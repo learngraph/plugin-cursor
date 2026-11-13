@@ -1,8 +1,11 @@
 {
   "mcpServers": {
     "learngraph": {
-      "command": "python3",
-      "args": ["${CURSOR_PLUGIN_ROOT}/bridge.py"]
+      "url": "https://app.learngraph.org/service-mcp/v1/public/mcp",
+      "auth": {
+        "CLIENT_ID": "learngraph-mcp",
+        "scopes": ["openid", "profile", "email", "organization", "offline_access"]
+      }
     }
   }
 }
