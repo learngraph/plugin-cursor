@@ -1,0 +1,9 @@
+{
+  "name": "learngraph",
+  "displayName": "LearnGraph",
+  "description": "LearnGraph tools for the signed-in user, through the public MCP door.",
+  "author": {
+    "name": "LearnGraph"
+  },
+  "license": "CC-BY-NC-4.0"
+}
